@@ -3,15 +3,11 @@ package github.iloggedin;
 import org.bukkit.plugin.java.JavaPlugin;
 public class MeltingSnowball extends JavaPlugin {
 
-
+    @Override
     public void onEnable() {
-        getLogger().info("Plugin started");
-        getServer().getPluginManager().registerEvents(new Snowmelt(), this);
+        getServer().getPluginManager().registerEvents(new SnowBallThrowListener(), this);
     }
 
 
-    public void onDisable() {
-        getLogger().info("Plugin stopped");
-    }
 }
 
