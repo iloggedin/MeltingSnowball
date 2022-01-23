@@ -1,0 +1,5 @@
+name: snowMelt
+main: github.iloggedin.main
+version: 0.0.1
+description: a thing i made
+api-version: 1.18
