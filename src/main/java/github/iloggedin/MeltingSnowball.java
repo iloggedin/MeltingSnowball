@@ -1,7 +1,7 @@
 package github.iloggedin;
 
 import org.bukkit.plugin.java.JavaPlugin;
-public class main extends JavaPlugin {
+public class MeltingSnowball extends JavaPlugin {
 
 
     public void onEnable() {
