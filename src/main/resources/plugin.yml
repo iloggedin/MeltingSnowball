@@ -1,5 +1,5 @@
 name: MeltingSnowball
-main: github.iloggedin.main
+main: github.iloggedin.MeltingSnowball
 version: 1.0-SNAPSHO
 description: a thing i made
 api-version: 1.18
