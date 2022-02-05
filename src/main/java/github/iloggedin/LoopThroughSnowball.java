@@ -10,7 +10,8 @@ public class LoopThroughSnowball extends BukkitRunnable{
 
     @Override
     public void run() {
-        Bukkit.broadcastMessage("hello");
+        Bukkit.broadcastMessage("hello, this is a test");
+        cancel();
     }
 }
 //3 create a scheduler task that runs every x times and loop through each one in the list and spawns a particle

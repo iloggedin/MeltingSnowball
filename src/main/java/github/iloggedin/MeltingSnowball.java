@@ -10,7 +10,7 @@ public class MeltingSnowball extends JavaPlugin {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new SnowBallThrowListener(), this);
 
-        BukkitTask loopthroughsnowball = new LoopThroughSnowball().runTaskLater(this, 100L);
+        BukkitTask loopthroughsnowball = new LoopThroughSnowball().runTaskTimer(this, 100L, 10);
     }
 }
 

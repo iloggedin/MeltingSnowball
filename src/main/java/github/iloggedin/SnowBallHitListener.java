@@ -19,7 +19,6 @@ public class SnowBallHitListener extends ProjectileHitEvent implements Listener 
     public void onHitEvent(ProjectileHitEvent hitEvent){
           if(hitEvent.getEntity() instanceof Snowball s){
             snowBallThrowListener.snowballList.remove(s);
-
           }
 
      }

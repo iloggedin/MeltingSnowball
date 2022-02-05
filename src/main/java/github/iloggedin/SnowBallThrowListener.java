@@ -14,8 +14,8 @@ public class SnowBallThrowListener implements Listener {
     LoopThroughSnowball loop = new LoopThroughSnowball();
 
     @EventHandler
-    public void onProjectileLaunch(ProjectileLaunchEvent event){
-      while(event.getEntity() instanceof Snowball s){
+    public void onProjectileMovementEvent(ProjectileLaunchEvent event){
+      if(event.getEntity() instanceof Snowball s){
           loop.run();
       }
 
