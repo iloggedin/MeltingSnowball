@@ -7,12 +7,10 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.ProjectileHitEvent;
 
-public class SnowBallHitListener extends ProjectileHitEvent implements Listener {
+public class SnowBallHitListener  implements Listener {
       SnowBallThrowListener snowBallThrowListener = new SnowBallThrowListener();
 
-    public SnowBallHitListener(Projectile projectile) {
-        super(projectile);
-    }
+
 
 
     @EventHandler

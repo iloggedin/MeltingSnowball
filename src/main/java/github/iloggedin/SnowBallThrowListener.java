@@ -10,13 +10,13 @@ import java.util.List;
 
 public class SnowBallThrowListener implements Listener {
     public List<Snowball> snowballList = new ArrayList<>();
-    SnowBallHitListener snowBallHitListener;
     LoopThroughSnowball loop = new LoopThroughSnowball();
 
     @EventHandler
-    public void onProjectileMovementEvent(ProjectileLaunchEvent event){
+    public void onProjectileLaunchEvent(ProjectileLaunchEvent event){
       if(event.getEntity() instanceof Snowball s){
           loop.run();
+
       }
 
         //1 add snowball to the list when thrown
