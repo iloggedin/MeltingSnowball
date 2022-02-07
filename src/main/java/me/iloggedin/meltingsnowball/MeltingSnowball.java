@@ -1,8 +1,6 @@
 package me.iloggedin.meltingsnowball;
-
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitTask;
-
 public class MeltingSnowball extends JavaPlugin {
 
     @Override
