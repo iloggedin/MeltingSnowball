@@ -19,8 +19,8 @@ public class LoopThroughSnowball extends BukkitRunnable {
             return;
         }
         for(World world : Bukkit.getWorlds())
-        for(Snowball s : world.getEntitiesByClass(Snowball.class)){
-            world.spawnParticle(Particle.WARPED_SPORE,s.getLocation(), 100);
+            for(Snowball s : world.getEntitiesByClass(Snowball.class)){
+                world.spawnParticle(Particle.WARPED_SPORE,s.getLocation(), 100);
 
         }
 
