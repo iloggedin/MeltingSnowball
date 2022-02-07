@@ -7,7 +7,7 @@ public class MeltingSnowball extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        BukkitTask loopthroughsnowball = new LoopThroughSnowball().runTaskTimer(this, 100L, 10);
+        BukkitTask loopthroughsnowball = new LoopThroughSnowball().runTaskTimer(this, 0, 10);
     }
 }
 
