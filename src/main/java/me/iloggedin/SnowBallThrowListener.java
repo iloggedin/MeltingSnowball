@@ -9,7 +9,7 @@ import java.util.List;
 
 
 public class SnowBallThrowListener implements Listener {
-    public List<Snowball> snowballList = new ArrayList<>();
+    public static List<Snowball> snowballList = new ArrayList<>();
     LoopThroughSnowball loop = new LoopThroughSnowball();
 
     //if a snowball is thrown
