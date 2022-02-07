@@ -1,1 +1,1 @@
-These are particle effects for a snowball
+This is a water particle effect coming off of a snowball
